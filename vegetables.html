@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script src="./js/components.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        
+        <header>
+            <h1>Пятерочка</h1>
+            <div id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text"/>
+            </div>
+        
+        </header>
+        <main>
+            <div id="item-list">
+            </div>
+        </main>
+        <script>
+        let itemList = document.querySelector("#item-list");
+        itemList.append(new ItemCard("помидоры", 69, "https://img.freepik.com/premium-photo/tomatoes-sale-store_118342-46740.jpg"));
+            itemList.append(new ItemCard("огурцы", 54, "https://здоровое-питание.рф/upload/iblock/e48/73hn14kp3rtpf7j541342hqxweeir3hr/zagruzhennoe-_-2023_05_04T144923.094.jpg"));
+        </script>
+    </body>
+</html>
