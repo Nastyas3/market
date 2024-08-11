@@ -74,3 +74,16 @@ item-card > img {
     width: 250px;
     height: 300px;
 }
+item-card > #buy{
+    background-color: cornflowerblue ;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+item-card > #buy:hover {
+    background-color: aquamarine;
+    border-radius: 5px;
+     border: 3px solid black;
+}
